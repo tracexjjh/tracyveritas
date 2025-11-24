@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python model1_api.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
